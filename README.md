@@ -1,0 +1,3 @@
+# Gsoc-2023-Rocket.chat
+The GitHub Rocket.Chat App provides a seamless integration between GitHub and Rocket.Chat and improves collaboration between developers.Now a pull request reminder app can be added to this or can be deployed with it which can work like Axolo a basic pull request reminder app for Slack.
+First, we will need to authenticate with the GitHub API using a private key. Then, we can use the API to retrieve the list of pull requests that are pending review. We can filter the list by the number of days since the pull request was created to send a reminder to the reviewers if the pull request has been pending for a long time. Finally, we can use a webhook to send the reminder to the reviewers on Rocket.Chat.
