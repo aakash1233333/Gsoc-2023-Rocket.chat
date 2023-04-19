@@ -11,3 +11,13 @@ Example DM text messages:
 "🔔 Don't let those pull requests get forgotten! You've got [number] waiting for your review. Let's get to work 💻"
 "🚀 It's time to move those pull requests forward! You've got [number] waiting for your review. Give them the green light 💚"
 
+# Python Second File.py :-
+ 1) Create a Rocket.Chat app and configure the necessary permissions and settings. You can use the Rocket.Chat app-engine framework to develop your app.
+
+ 2) Create a GitHub app and configure the necessary permissions and settings. You'll need to use the GitHub API to authenticate with the app and retrieve information about open pull requests.
+
+ 3) Use the GitHub API to retrieve information about open pull requests for a specified repository. You can use the GET /repos/:owner/:repo/pulls endpoint to retrieve pull requests.
+
+4) For each open pull request, calculate how long it has been open and send a reminder message to the appropriate Rocket.Chat channel or user. You can use the Rocket.Chat API to post messages to channels or direct messages to users.
+
+5) Set up a scheduler to run the app periodically (e.g., once per day) and check for new or updated pull requests.
