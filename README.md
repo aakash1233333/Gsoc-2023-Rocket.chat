@@ -1,3 +1,24 @@
+#GitHub Pull Request Reminders for Rocket.Chat
+Introduction
+This project is a part of the Google Summer of Code program and aims to develop a pull request reminder app for Rocket.Chat to help teams keep track of their pull request reviews. The app will send regular reminders and updates to ensure that pull requests are being reviewed and discussed in a timely manner.This project will be built on top of the existing GitHub App and will utilize the GitHub API to retrieve information about open pull requests.
+
+# Project Scope
+The app will be designed to work with GitHub repositories and will focus on providing regular reminders to keep the review process moving. One approach to solving the issue of pending pull requests is to create a separate Rocket.Chat channel for each pull request. This way, all relevant stakeholders can be added to the channel, including the author of the pull request, the reviewers, and any other team members who need to be informed about the status of the review.The Rocket.Chat channels can serve as a dedicated space for discussion and collaboration around each pull request. Users can receive notifications about updates to the pull request, such as new comments or changes to the code. This helps keep everyone informed and ensures the review process stays on track.
+
+Development
+# Prerequisites
+To develop this app, you will need:
+
+Node.js version 12 or higher
+npm (included with Node.js)
+A Rocket.Chat server instance
+A GitHub account
+A GitHub OAuth app
+
+
+
+
+
 # Gsoc-2023-Rocket.chat
 The GitHub Rocket.Chat App provides a seamless integration between GitHub and Rocket.Chat and improves collaboration between developers.Now a pull request reminder app can be added to this or can be deployed with it which can work like Axolo a basic pull request reminder app for Slack.
 First, we will need to authenticate with the GitHub API using a private key. Then, we can use the API to retrieve the list of pull requests that are pending review. We can filter the list by the number of days since the pull request was created to send a reminder to the reviewers if the pull request has been pending for a long time. Finally, we can use a webhook to send the reminder to the reviewers on Rocket.Chat.
@@ -30,3 +51,4 @@ Creating Rocket.Chat channels: Create a new channel in Rocket.Chat for each open
 Posting reminders to channels: Post reminder messages to the appropriate Rocket.Chat channels at regular intervals (e.g. once a day) to remind users to review their assigned pull requests. You can use the Rocket.Chat API to post messages and set up message scheduling.
 
 Handling updates and notifications: Use webhooks or long polling to receive updates from the GitHub API when there are new comments or changes to a pull request. Use the Rocket.Chat API to send notifications to users about the updates.
+
