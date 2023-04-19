@@ -1,5 +1,6 @@
 # GitHub Pull Request Reminders for Rocket.Chat
 Introduction
+
 This project is a part of the Google Summer of Code program and aims to develop a pull request reminder app for Rocket.Chat to help teams keep track of their pull request reviews. The app will send regular reminders and updates to ensure that pull requests are being reviewed and discussed in a timely manner.This project will be built on top of the existing GitHub App and will utilize the GitHub API to retrieve information about open pull requests.
 
 # Project Scope
@@ -14,7 +15,7 @@ To develop this app, you will need:
 3) A GitHub account
 4) A GitHub OAuth app
 
-# Desirable Skills: Advanced Typescript; Knowledge about Github API's; Rocket.Chat app-engine Framework; Familiarity with existing Github App
+Desirable Skills: Advanced Typescript; Knowledge about Github API's; Rocket.Chat app-engine Framework; Familiarity with existing Github App
 
 # TECH STAK THAT WILL BE USED IN THIS PROJECT APART FROM MENTIONED ABOVE:-
 # Backend:
