@@ -14,7 +14,26 @@ To develop this app, you will need:
 3) A GitHub account
 4) A GitHub OAuth app
 
+# TECH STAK THAT WILL BE USED IN THIS PROJECT:-
+# Backend:
 
+1- Node.js - JavaScript runtime for building server-side applications
+2- TypeScript - a typed superset of JavaScript that compiles to plain JavaScript
+3- GitHub API - for interacting with GitHub to fetch and update pull request data
+4- Rocket.Chat app-engine framework - a framework for building Rocket.Chat apps
+5- MongoDB - a NoSQL database that can be used to store pull request and user data
+
+# Frontend:
+
+1- Rocket.Chat UI framework - for building the app's user interface within Rocket.Chat
+2- React - a JavaScript library for building user interfaces
+3- Redux - a predictable state container for managing the app's state
+
+# Additional tools and technologies:
+
+1- Git - for version control and collaboration
+2- GitHub Actions or other CI/CD tools - for automated testing, building, and deployment
+3- Docker - for containerizing the app and making it easier to deploy
 
 
 
@@ -51,3 +70,5 @@ Posting reminders to channels: Post reminder messages to the appropriate Rocket.
 
 Handling updates and notifications: Use webhooks or long polling to receive updates from the GitHub API when there are new comments or changes to a pull request. Use the Rocket.Chat API to send notifications to users about the updates.
 
+# Conclusion:
+Developing a GitHub pull request reminder app for Rocket.Chat is a valuable project that can help development teams stay organized and efficient. By using existing technologies and frameworks, such as Node.js, TypeScript, and the GitHub API, the app can be built efficiently and effectively. Additionally, leveraging the Rocket.Chat app-engine framework and UI framework can help to streamline the app's development and ensure a seamless user experience. By delivering a working app that sends pull request reminders to Rocket.Chat users, this project can help to improve the productivity and collaboration of development teams.Conclusion:
