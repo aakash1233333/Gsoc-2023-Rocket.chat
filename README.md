@@ -9,14 +9,13 @@ The app will be designed to work with GitHub repositories and will focus on prov
 Development
 # Prerequisites
 To develop this app, you will need:
-
- 1)Node.js version 12 or higher npm (included with Node.js)
+1)Node.js version 12 or higher npm (included with Node.js)
  
 2)A Rocket.Chat server instance
 
-3) A GitHub account
+3)A GitHub account
 
-4) A GitHub OAuth app
+4)A GitHub OAuth app
 
 Desirable Skills: Advanced Typescript; Knowledge about Github API's; Rocket.Chat app-engine Framework; Familiarity with existing Github App
 
