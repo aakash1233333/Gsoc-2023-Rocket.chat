@@ -11,8 +11,11 @@ Development
 To develop this app, you will need:
 
  1)Node.js version 12 or higher npm (included with Node.js)
+ 
 2)A Rocket.Chat server instance
+
 3) A GitHub account
+
 4) A GitHub OAuth app
 
 Desirable Skills: Advanced Typescript; Knowledge about Github API's; Rocket.Chat app-engine Framework; Familiarity with existing Github App
