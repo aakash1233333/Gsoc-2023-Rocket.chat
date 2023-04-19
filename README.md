@@ -14,25 +14,35 @@ To develop this app, you will need:
 3) A GitHub account
 4) A GitHub OAuth app
 
-# TECH STAK THAT WILL BE USED IN THIS PROJECT:-
+# Desirable Skills: Advanced Typescript; Knowledge about Github API's; Rocket.Chat app-engine Framework; Familiarity with existing Github App
+
+# TECH STAK THAT WILL BE USED IN THIS PROJECT APART FROM MENTIONED ABOVE:-
 # Backend:
 
-1- Node.js - JavaScript runtime for building server-side applications
-2- TypeScript - a typed superset of JavaScript that compiles to plain JavaScript
-3- GitHub API - for interacting with GitHub to fetch and update pull request data
-4- Rocket.Chat app-engine framework - a framework for building Rocket.Chat apps
-5- MongoDB - a NoSQL database that can be used to store pull request and user data
+1- Node.js - JavaScript runtime for building server-side applications.
+
+2- TypeScript - a typed superset of JavaScript that compiles to plain JavaScript.
+
+3- GitHub API - for interacting with GitHub to fetch and update pull request data.
+
+4- Rocket.Chat app-engine framework - a framework for building Rocket.Chat apps.
+
+5- MongoDB - a NoSQL database that can be used to store pull request and user data.
 
 # Frontend:
 
-1- Rocket.Chat UI framework - for building the app's user interface within Rocket.Chat
-2- React - a JavaScript library for building user interfaces
+1- Rocket.Chat UI framework - for building the app's user interface within Rocket.Chat.
+
+2- React - a JavaScript library for building user interfaces.
+
 3- Redux - a predictable state container for managing the app's state
 
 # Additional tools and technologies:
 
 1- Git - for version control and collaboration
+
 2- GitHub Actions or other CI/CD tools - for automated testing, building, and deployment
+
 3- Docker - for containerizing the app and making it easier to deploy
 
 
